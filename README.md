@@ -25,3 +25,4 @@ docker-compose exec broker kafka-topics --list --bootstrap-server localhost:9092
 docker-compose exec broker kafka-console-consumer --topic "com.test.purchases" --bootstrap-server PLAINTEXT://localhost:9092 --from-beginning
 
 ```
+
