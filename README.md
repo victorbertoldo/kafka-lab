@@ -26,3 +26,8 @@ docker-compose exec broker kafka-console-consumer --topic "com.test.purchases" -
 
 ```
 
+When using a producer in a machine away from kafka, run this conda parameter on terminal before executing consumer.
+
+``` shell
+set CONDA_DLL_SEARCH_MODIFICATION_ENABLE=1
+```
